@@ -1,5 +1,9 @@
 @import 'reset.css';
 
+html{
+    scroll-behavior: smooth;
+}
+
 :root{
     --font-header: 'Marmelad', sans-serif;
     --font-parag: 'Roboto', sans-serif;
@@ -63,7 +67,6 @@
 }
 
 .promo{
-    background-image: url("../backgrounds/back.jpg");
     height: 65vh;
     width: auto;
     background-repeat: no-repeat;
@@ -80,6 +83,7 @@
     font-size: 45px;
     color: white;
     padding: 9px;
+    text-transform:uppercase;
 }
 
 .promo_p{
@@ -87,11 +91,20 @@
     font-size: 20px;
     color: white;
 }
+
+.promo_a{
+    position: absolute;
+    bottom: 39%;
+    width: 145px;
+    height: 45px;
+}
 .promo_but{
     position: absolute;
     bottom: 39%;
     width: 145px;
     height: 45px;
+    display: flex;
+    justify-content: center;
     font-size: var(--size-parag);
     color: white;
     background-color: unset;
@@ -179,8 +192,9 @@
 
 .works{
     font-family: var(--font-header);
-    font-size: var(--size-header);
+    font-size: 32px;
     color: #22a7f0;
+    text-transform:uppercase;
 }
 
 .works_line{
@@ -307,6 +321,11 @@
     font-family: var(--font-parag);
     font-size: 15px;
     color: white;
+    text-decoration: none;
+}
+
+.final_p_hover:hover{
+    color: #22a7f0;
 }
 
 .final_img{
