@@ -76,15 +76,15 @@ html{
 }
 
 .promo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     height: 65vh;
     width: auto;
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
 }
 
 .promo h1, h5{
@@ -252,13 +252,22 @@ html{
     width: 75%;
 }
 
-.contact_info p, h5{
+.contact_info p{
     font-family: var(--font-parag);
     font-size: var(--size-parag);
     line-height: 25px;
     margin: 20px;
     width: 75%;
 }
+
+.contact_info h5{
+    font-family: var(--font-parag);
+    font-size: var(--size-parag);
+    line-height: 25px;
+    margin: 20px;
+    width: 75%;
+}
+
 .contact_info h5{
     font-weight: bold;
     color: black;
