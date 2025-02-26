@@ -87,7 +87,7 @@ html{
     background-size: cover;
 }
 
-.promo h1, h5{
+.promo h1{
     font-family: var(--font-header);
     font-size: 45px;
     color: white;
