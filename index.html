@@ -1,136 +1,144 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GO TO TOP</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/reset.css">
-    <link href="https://fonts.googleapis.com/css?family=Marmelad|Roboto&display=swap" rel="stylesheet">
-    <link rel="shortcut icon" href="icons/favicon.ico" type="image/x-icon">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>GO TO TOP</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/reset.css">
+        <link href="https://fonts.googleapis.com/css?family=Marmelad|Roboto&display=swap" rel="stylesheet">
+        <link rel="shortcut icon" href="icons/favicon.ico" type="image/x-icon">
+        <script src="js.js" async></script>
 </head>
+<div class="preloader">
+    <div class="preloader_row">
+        <img src="/loading.GIF" alt="">
+    </div>
+  </div>
 <body>
     <div class="wrapper">
         <div class="wrap">
-            <div class="head_div">
+            <div class="wrap_logo">
                 <img src="icons/web.png" alt="" id="logo">
-                <h3 class="head_h3"> GO TO <div style="color: tomato; margin-left: 8px;">TOP</div></h3>
+                <h3> GO TO <span style="color: tomato; margin-left: 8px;">TOP</span></h3>
             </div>
             <div class="nav">
-                <a href="index.html" class="nav_a">Главная</a>
-                <a href="#news" class="nav_a">Новости</a>
-                <a href="contact.html#news" class="nav_a">О компании</a>
-                <a href="#contact" class="nav_a">Контакты</a>
+                <a href="index.html">Главная</a>
+                <a href="#news">Новости</a>
+                <a href="contact.html#news">О компании</a>
+                <a href="contact.html">Контакты</a>
             </div>
         </div>
         
             <div class="promo" style='background-image: url("backgrounds/back.jpg");'>
-                <h1 class="promo_h1">ВАШ САЙТ - ГЛАВНЫЙ БИЗНЕС-ИСНТРУМЕНТ</h1>
-                <p class="promo_p" style="padding: 0 0 50px;">GO TO TOP - Ваш быстрый старт продаж</p>
+                <h1>ВАШ САЙТ - ГЛАВНЫЙ БИЗНЕС-ИСНТРУМЕНТ</h1>
+                <p>GO TO TOP - Ваш быстрый старт продаж</p>
                 <a href="contact.html#news" style="text-decoration: none;">
-                    <button class="promo_but">О нас</button>
+                    <button>О нас</button>
                 </a>    
             </div>
         <div class="grey">
             <div class="wrap">
-                <div class="card card_height">
-                    <div class="card_img_div"><img src="icons/computer.png" alt="" class="card_img"></div>
-                    <h5 class="card_h5">СОЗДАДИМ ПРОДАЮЩИЙ САЙТ</h5>
-                    <p class="card_p">Нету сайта?Не беда.Наши специалисты разработают оптимизированный продающий сайт для Вашей компании в минимальные сроки.</p>
-                </div>
-                <div class="card card_height">
-                    <div class="card_img_div"><img src="icons/networking2.png" alt="" class="card_img"></div>
-                    <h5 class="card_h5">ВЫБЕРЕМ АУДИТОРИЮ</h5>
-                    <p class="card_p ">Составим аудиторию.Ваших потонциальных клиентов для качественных продаж.</p>
-                </div>
-                <div class="card card_height">
-                    <div class="card_img_div"><img src="icons/settings.png" alt="" class="card_img"></div>
-                    <h5 class="card_h5">НАСТРОИМ СТАТИСТИКУ</h5>
-                    <p class="card_p ">Настроим статистику сайта,будем анализировать действия пользователей и улучшать функционал.</p>
+                <div class="flex_wrap">
+                    <div class="card card_height">
+                        <div><img src="icons/computer.png" alt="" ></div>
+                        <h5>СОЗДАДИМ ПРОДАЮЩИЙ САЙТ</h5>
+                        <p>Нету сайта?Не беда.Наши специалисты разработают оптимизированный продающий сайт для Вашей компании в минимальные сроки.</p>
+                    </div>
+                    <div class="card card_height">
+                        <div><img src="icons/networking2.png" alt="" ></div>
+                        <h5>ВЫБЕРЕМ АУДИТОРИЮ</h5>
+                        <p>Составим аудиторию.Ваших потонциальных клиентов для качественных продаж.</p>
+                    </div>
+                    <div class="card card_height">
+                        <div><img src="icons/settings.png" alt="" ></div>
+                        <h5>НАСТРОИМ СТАТИСТИКУ</h5>
+                        <p>Настроим статистику сайта,будем анализировать действия пользователей и улучшать функционал.</p>
+                    </div>
+                    <div class="card card_height">
+                        <div class="card_img_div"><img src="icons/networking.png" alt="" class="card_img"></div>
+                        <h5 class="card_h5">РАЗОВЬЕМ СОЦ.СЕТИ</h5>
+                        <p class="card_p">Для качественных продаж крайне необходимо вести активную деятельность в социалных сетях. Наши специалисты комплексно подойдут к вопросу привлечения клиентов через соц. сети.</p>
+                    </div>
+                    <div class="card card_height">
+                        <div class="card_img_div"><img src="icons/laptop.png" alt="" class="card_img"></div>
+                        <h5 class="card_h5">МИНИМИЗИРУЕМ БЮДЖЕТ</h5>
+                        <p class="card_p">Главное не тратить деньги в пустую. Мы следим за тем, какая реклама дают максимальный результат и стремимся найти самые активные точки продаж для минимизации рекламного бюджета.</p>
+                    </div>
+                    <div class="card card_height">
+                        <div class="card_img_div"><img src="icons/startup.png" alt="" class="card_img"></div>
+                        <h5 class="card_h5">ПРИВЛЕЧЕМ КЛИЕНТОВ</h5>
+                        <p class="card_p">Наша цель - максимальное количество киентов для Ваших продаж. Мы работаем по всем направления в интернет-маркетинге для того, чтобы найти именно Ваших потенциальных клиентов!</p>
+                    </div>
                 </div>
             </div>
-            <div class="wrap_too">
-                <div class="card card_height">
-                    <div class="card_img_div"><img src="icons/networking.png" alt="" class="card_img"></div>
-                    <h5 class="card_h5">РАЗОВЬЕМ СОЦ.СЕТИ</h5>
-                    <p class="card_p">Для качественных продаж крайне необходимо вести активную деятельность в социалных сетях. Наши специалисты комплексно подойдут к вопросу привлечения клиентов через соц. сети.</p>
-                </div>
-                <div class="card card_height">
-                    <div class="card_img_div"><img src="icons/laptop.png" alt="" class="card_img"></div>
-                    <h5 class="card_h5">МИНИМИЗИРУЕМ БЮДЖЕТ</h5>
-                    <p class="card_p">Главное не тратить деньги в пустую. Мы следим за тем, какая реклама дают максимальный результат и стремимся найти самые активные точки продаж для минимизации рекламного бюджета.</p>
-                </div>
-                <div class="card card_height">
-                    <div class="card_img_div"><img src="icons/startup.png" alt="" class="card_img"></div>
-                    <h5 class="card_h5">ПРИВЛЕЧЕМ КЛИЕНТОВ</h5>
-                    <p class="card_p">Наша цель - максимальное количество киентов для Ваших продаж. Мы работаем по всем направления в интернет-маркетинге для того, чтобы найти именно Ваших потенциальных клиентов!</p>
-                </div>
+        </div>  
+        <div class="bg_blue" style="height: 10vh;">
+            <div class="info">
+                <h3>ХОТИТЕ НАЧАТЬ ЗАРАБАТЫВАТЬ В ИНТЕРНЕТЕ? ПРОСТО СВЯЖИТЕСЬ С НАМИ.</h3>
+                <a href="#news"><button >CВЯЗАТЬСЯ</button></a>
             </div>
-        </div>    
-        <div class="info">
-            <h3 class="info_h3">ХОТИТЕ НАЧАТЬ ЗАРАБАТЫВАТЬ В ИНТЕРНЕТЕ? ПРОСТО СВЯЖИТЕСЬ С НАМИ.</h3>
-            <a href="#news"><button class="info_but">CВЯЗАТЬСЯ</button></a>
-        </div>
+        </div>  
         <div class="wrap">
             <div class="work">
-                <h4 class="works">последние работы</h4>
-                <div class="works_line"></div>
+                <h4>последние работы</h4>
+                <div></div>
             </div>
         </div>
-        <div class="wrap_too">
+        <div class="wrap" style="padding: 0 0 35px 0;">
                 <div class="card"><img src="pics/site1.jpg" alt="" class="work_img"></div>
                 <div class="card"><img src="pics/site2.jpg" alt="" class="work_img"></div>
                 <div class="card"><img src="pics/site3.jpg" alt="" class="work_img"></div>
         </div>
-        <div class="info inf">
-            <div class="card card_inf">
-                <div class="inf_num">456</div>
-                <div class="inf_line"></div>
-                <p class="inf_p">СЧАСТЛИВЫХ КЛИЕНТА</p>
-            </div>
-            <div class="card card_inf">
-                <div class="inf_num">332</div>
-                <div class="inf_line"></div>
-                <p class="inf_p">ПРОЕКТА</p>
-            </div>
-            <div class="card card_inf">
-                <div class="inf_num">290</div>
-                <div class="inf_line"></div>
-                <p class="inf_p">САЙТОВ В ТОП</p>
-            </div>
-            <div class="card card_inf">
-                <div class="inf_num">132</div>
-                <div class="inf_line"></div>
-                <p class="inf_p">САЙТА РАЗРАБОТАНО</p>
+        <div class="bg_blue">
+            <div class="info">
+                <div class="info_card">
+                    <div class="info_big_number">456</div>
+                    <div class="info_line"></div>
+                    <p>СЧАСТЛИВЫХ КЛИЕНТА</p>
+                </div>
+                <div class="info_card">
+                    <div class="info_big_number">332</div>
+                    <div class="info_line"></div>
+                    <p>ПРОЕКТА</p>
+                </div>
+                <div class="info_card">
+                    <div class="info_big_number">290</div>
+                    <div class="info_line"></div>
+                    <p>САЙТОВ В ТОП</p>
+                </div>
+                <div class="info_card">
+                    <div class="info_big_number">132</div>
+                    <div class="info_line"></div>
+                    <p>САЙТА РАЗРАБОТАНО</p>
+                </div>
             </div>
         </div>
         <div class="wrap">
             <div class="work">
-                <h4 class="works" id="news">новости</h4>
-                <div class="works_line"></div>
+                <h4 id="news">новости</h4>
+                <div></div>
             </div>
         </div>
-        <div class="wrap_too">
-            <div style="width: 600px;">
-                <dic class="news">
+        <div class="wrap">
+            <div class="news">
+                <div class="news_container">
                     <img src="pics/news1.jpg" alt="">
                     <div>
 
-                        <p class="news_p" style="margin: 50px 0 30px 20px">1 января 2018</p>
-                        <p class="news_p"> Мы начинаем этот год с наших новых разроботок в области маркетинга.
+                        <p style="margin: 50px 0 30px 20px">1 января 2018</p>
+                        <p> Мы начинаем этот год с наших новых разроботок в области маркетинга.
                              Ждем Вас на наших тренингах и лекциях</p>
-                        <a href="new1.html" class="news_a">Подробнее</a>
+                        <a href="new1.html" >Подробнее</a>
                     </div>
-                </dic>
-            </div>
-            <div style="width: 600px;">
-                <div class=" news">
+                </div>
+                <div class="news_container">
                     <img src="pics/news2.jpg" alt="">
                     <div>
-                        <p class="news_p" style="margin: 40px 0 20px 20px">12 марта 2018</p>
-                        <p class="news_p">Мы работаем, вы отдыхаете!!</p>
-                        <p class="news_p">Теперь мы предоставляем полный спектр услуг по привлечению клиентов!</p>
-                        <a href="new2.html" class="news_a">Подробнее</a>
+                        <p style="margin: 40px 0 20px 20px">12 марта 2018</p>
+                        <p>Мы работаем, вы отдыхаете!!</p>
+                        <p>Теперь мы предоставляем полный спектр услуг по привлечению клиентов!</p>
+                        <a href="new2.html" >Подробнее</a>
 
                     </div>
                 </div>
@@ -139,19 +147,19 @@
         <div class="grey">
             <div class="wrap">
                 <div class="work">
-                    <h4 class="works">напишите нам</h4>
-                    <div class="works_line"></div>
+                    <h4>напишите нам</h4>
+                    <div></div>
                 </div>
             </div>
-            <div class="wrap_too">
-                <form action="" class="msg" >
-                    <input type="text" name="name" placeholder="ФИО" class="msg_input">
-                    <input type="email" name="Email" placeholder="Email" class="msg_input">
-                    <input type="tel" name="tel" placeholder="Телефон" class="msg_input">
-                    <button class="msg_but">отправить вопрос</button>
+            <div class="wrap" style="padding: 0 0 35px 0;">
+                <form action="" class="form" >
+                    <input type="text" name="name" placeholder="ФИО">
+                    <input type="email" name="Email" placeholder="Email">
+                    <input type="tel" name="tel" placeholder="Телефон">
+                    <button>отправить вопрос</button>
                 </form>
                 <form action="">
-                    <textarea type="text" name="text" placeholder="Ваше сообщение" class="msg_input_text"></textarea></div>
+                    <textarea type="text" name="text" placeholder="Ваше сообщение" class="form_textarea"></textarea></div>
                 </form>
                 <div>
             </div>
@@ -159,26 +167,23 @@
         <div style="background-color: #242424;">
             <div class="wrap" id="contact">
                 <div class="final">
-                    <div class="card card_fin">
-                        <h5 class="final_h5" style="margin-right: 225px;">О НАС</h5>
-                        <p class="final_p line">Мы оказываем всестороннюю помощь компаниям и физическим лицам — собственникам веб-ресурсов, которые готовы использовать сайт, как эффективный рекламный инструмент, позволяющий развивать бизнес.</p>
+                    <div class="final_info">
+                        <h5>О НАС</h5>
+                        <p>Мы оказываем всестороннюю помощь компаниям и физическим лицам — собственникам веб-ресурсов, которые готовы использовать сайт, как эффективный рекламный инструмент, позволяющий развивать бизнес.</p>
                         
                     </div>
-                    <div class="card card_fin">
-                        <h5 class="final_h5">ЧИТАЙТЕ В НОВОСТЯХ</h5>
-                        <div style="margin-top: 13px;">
-                            <a href="new1.html" class="final_p final_p_hover" >Новые разработки</a>
-                           <a href="new2.html" style="text-decoration: none;"><p class="final_p final_p_hover">Мы работаем, вы отдыхаете</p></a>
+                    <div class="final_info">
+                        <h5>ЧИТАЙТЕ В НОВОСТЯХ</h5>
+                        <div>
+                            <a href="new1.html" >Новые разработки</a>
+                           <a href="new2.html" style="text-decoration: none;">Мы работаем, вы отдыхаете</a>
                         </div>
                     </div>
-                    <div class="card card_fin">
-                        <h5 class="final_h5" style="margin-right: 140px;">КОНТАКТЫ</h5>
-                        <div>
-                           <p class="final_p"><img src="icons/placeholder.png" alt="" class="final_img"> Москва, Большая Спасская 12</p>
-                            <p class="final_p"><img src="icons/telephone.png" alt="" class="final_img">8 (495) 626-46-00</p>
-                            <p class="final_p"><img src="icons/mail.png" alt="" class="final_img">info@gototop.com</p>
-
-                        </div>
+                    <div class="final_info">
+                        <h5>КОНТАКТЫ</h5>
+                        <p><img src="icons/placeholder.png" alt="">Москва, Большая Спасская 12</p>
+                        <p><img src="icons/telephone.png" alt="">8 (495) 626-46-00</p>
+                        <p><img src="icons/mail.png" alt="">info@gototop.com</p>
                     </div>
                 </div>
             </div>

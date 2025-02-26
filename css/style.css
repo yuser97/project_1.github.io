@@ -28,21 +28,27 @@ html{
     padding: 35px;
 }
 
-.wrap_too{
+.flex_wrap{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-bottom: 35px;
+    flex-wrap: wrap;
+    width: 75%;
+    padding-bottom: 35px;   
 }
 
-.head_div{
+.line_wrap{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.wrap_logo{
     display: flex;
     align-items: center;
     font-size: var(--size-header);
     
 }
 
-.head_h3{
+.wrap h3{
     display: flex;
     margin-left: 20px;
     font-family: var(--font-header);
@@ -54,19 +60,18 @@ html{
 }
 
 .nav{
-    display: flex;
     margin-left: 45%;
     font-family: var(--font-parag);
     font-size: var(--size-parag)
     
 }
 
-.nav_a{
+.nav a{
     margin-left: 10px;
     color: black;
     text-decoration: none;
 }
-.nav_a:hover{
+.nav a:hover{
     color: var(--color-text);
 }
 
@@ -82,7 +87,7 @@ html{
     align-items: center;
 }
 
-.promo_h1{
+.promo h1, h5{
     font-family: var(--font-header);
     font-size: 45px;
     color: white;
@@ -90,24 +95,26 @@ html{
     text-transform:uppercase;
 }
 
-.promo_p{
+.promo p{
     font-family: var(--font-parag);
     font-size: 20px;
     color: white;
+    padding: 0 0 50px;
 }
 
-.promo_but{
+.promo button{
     width: 145px;
     height: 45px;
     display: flex;
     justify-content: center;
+    align-items: center;
     font-size: var(--size-parag);
     color: white;
     background-color: unset;
     border: 3px solid white;
 }
 
-.promo_but:hover{
+.promo button:hover{
     cursor: pointer;
     border: 3px solid var(--color-text);
     color: var(--color-text);
@@ -129,58 +136,27 @@ html{
     height: 250px;
 }
 
-.card_img_div{
+.card div{
     height: 70px;
     margin-bottom: 15px;
 }
 
-.card_img{
+.card img{
     height: inherit;
 }
 
-.card_h5{
+.card h5{
     font-family: var(--font-header);
     font-size: 18px;
     color: var(--color-h);
 }
-.card_p{
+.card p{
     font-family: var(--font-parag);
     font-size: var(--size-parag);
     line-height: 25px;
     margin: 20px;
 }
 
-.info{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 10vh;
-    width: auto;
-    background-color: var(--color-h);
-}
-
-.info_h3{
-    font-family: var(--font-header);
-    font-size: 18px;
-    color: white;
-}
-
-.info_but{
-    width: 145px;
-    height: 45px;
-    font-family: var(--font-parag);
-    font-size: var(--size-parag);
-    color: white;
-    background-color: unset;
-    border: 3px solid white;
-    margin-left: 350px;
-}
-
-.info_but:hover{
-    cursor: pointer;
-    color: var(--color-h);
-    background-color: white;
-}
 
 .work{
     display: flex;
@@ -189,14 +165,14 @@ html{
     width: 1250px;
 }
 
-.works{
+.work h4{
     font-family: var(--font-header);
     font-size: 32px;
     color: var(--color-h);
     text-transform:uppercase;
 }
 
-.works_line{
+.work div{
     margin: 20px 0 0 0;
     height: 2px;
     background-color: palevioletred;
@@ -207,33 +183,102 @@ html{
     border: 3px solid palevioletred;
 }
 
-.card_inf{
-    width: 350px;
+.bg_blue{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 14vh;
+    width: auto;
+    background-color: var(--color-h);
+}
+
+.info{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 75%;
+}
+
+.info h3{
+    font-family: var(--font-header);
+    font-size: 18px;
     color: white;
 }
 
-.inf{
-    height: 14vh;
+
+.info button{
+    width: 145px;
+    height: 45px;
+    font-family: var(--font-parag);
+    font-size: var(--size-parag);
+    color: white;
+    background-color: unset;
+    border: 3px solid white;
 }
 
-.inf_num{
+.info button:hover{
+    cursor: pointer;
+    color: var(--color-h);
+    background-color: white;
+}
+
+.info_card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: var(--font-parag);
+    font-size: 20px;
+}
+
+
+.info_big_number{
     font-family: var(--font-header);
     font-size: 35px;
 }
 
-.inf_line{
+.info_line{
     margin: 10px;
     height: 2px;
     background-color: white;
     width: 6%;
 }
 
-.inf_p{
+.contact_info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 75%;
+}
+
+.contact_info p, h5{
     font-family: var(--font-parag);
-    font-size: 20px;
+    font-size: var(--size-parag);
+    line-height: 25px;
+    margin: 20px;
+    width: 75%;
+}
+.contact_info h5{
+    font-weight: bold;
+    color: black;
+    padding: 20px;
+}
+
+.contact_info div{
+    font-family: var(--font-parag);
+    font-size: var(--size-parag);
+    width: 75%;
 }
 
 .news{
+    display: flex;
+    justify-content: space-evenly;
+    width: 70%;
+    
+}
+
+.news_container{
     display: flex;
     background-color: #f8f8f8;  
     width: 550px;
@@ -241,27 +286,27 @@ html{
     font-size: var(--size-parag)
 }
 
-.news_p{
+.news p{
     width: 300px;
     margin: 0 7px 15px 20px;
 }
 
-.news_a{
-    margin-left: 200px;
+.news a{
+    margin-left: 60%;
     color: var(--color-h);
     text-decoration: none;
 }
 
-.news_a:hover{
+.news a:hover{
     color: #63D5F1;
 }
 
-.msg{
+.form{
     display: flex;
     flex-direction: column;
 }
 
-.msg_input{
+.form input{
     margin: 7px;
     border: 4px solid var(--color-h);
     width: 500px;
@@ -270,7 +315,7 @@ html{
     font-size: var(--size-parag);
 }
 
-.msg_but{
+.form button{
     margin: 7px;
     color: white;
     border: 4px solid var(--color-h);
@@ -281,14 +326,14 @@ html{
     font-size: var(--size-parag);
 }
 
-.msg_but:hover{
+.form button:hover{
     color: white;
     border: 4px solid var(--color-p);
     background-color: var(--color-p);
     cursor: pointer;
 }
 
-.msg_input_text{
+.form_textarea{
     padding: 0 0 100px;
     border: 4px solid var(--color-h);
     width: 500px;
@@ -300,40 +345,56 @@ html{
 }
 .final{
     display: flex;
-    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    width: 75%;
 }
-.card_fin{
-    text-align: left;
+.final_info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
     width: 300px;
-    margin: 0 70px 0 70px;
 }
 
-.final_h5{
+.final h5{
+    align-items: flex-start;
+    justify-content: flex-start;
     font-family: var(--font-header);
     font-size: 18px;
     color: var(--color-h);
     height: 50px;
 }
 
-.final_p{
-    margin: 10px;
+.final p{
     font-family: var(--font-parag);
     font-size: 15px;
     color: white;
     text-decoration: none;
-}
-
-.line{
     line-height: 20px;
 }
 
-.final_p_hover:hover{
+.final div{
+    display: flex;
+    flex-direction: column;
+}
+
+.final a{
+    font-family: var(--font-parag);
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+    line-height: 20px;
+    margin-top: 10px;
+}
+
+.final a:hover{
     color: #63D5F1;
 }
 
-.final_img{
+.final img{
     width: 20px;
-    margin-right: 5px;
+    margin: 5px 5px 0 0 ;
 }
 
 .down_inf{
@@ -341,3 +402,33 @@ html{
     font-size: 13px;
     color: white;
 }
+
+.preloader {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background: white;
+    z-index: 1001;
+  }
+  
+  .preloader_row {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    width: 70px;
+    height: 70px;
+    margin-top: -35px;
+    margin-left: -35px;
+    text-align: center;
+  }
+  
+  .loaded_hiding .preloader {
+    transition: 0.3s opacity;
+    opacity: 0;
+  }
+  
+  .loaded .preloader {
+    display: none;
+  }
